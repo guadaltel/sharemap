@@ -4,53 +4,50 @@
     "separator": "*"
   },
   "constructor": "M.plugin.ShareMap",
-  "parameters": [
-    {
-      "type": "object",
-      "properties": [
-        {
-          "type": "simple",
-          "name": "baseUrl",
-          "position": 0
-        },
-        {
-          "type": "simple",
-          "name": "position",
-          "position": 1,
-          "possibleValues": [
-            "TL",
-            "TR",
-            "BL",
-            "BR"
-          ]
-        },
-        {
-          "type": "simple",
-          "name": "title",
-          "position": 2
-        },
-        {
-          "type": "simple",
-          "name": "tooltip",
-          "position": 3
-        },
-        {
-          "type": "simple",
-          "name": "btn",
-          "position": 4
-        },
-        {
-          "type": "simple",
-          "name": "copyBtn",
-          "position": 5
-        }
-      ]
-    }
-  ],
+  "parameters": [{
+    "type": "object",
+    "properties": [{
+        "type": "simple",
+        "name": "baseUrl",
+        "position": 0
+      },
+      {
+        "type": "simple",
+        "name": "position",
+        "position": 1,
+        "possibleValues": [
+          "TL",
+          "TR",
+          "BL",
+          "BR"
+        ]
+      },
+      {
+        "type": "simple",
+        "name": "title",
+        "position": 2
+      },
+      {
+        "type": "simple",
+        "name": "tooltip",
+        "position": 3
+      },
+      {
+        "type": "simple",
+        "name": "btn",
+        "position": 4
+      },
+      {
+        "type": "simple",
+        "name": "copyBtn",
+        "position": 5
+      }
+    ]
+  }],
   "files": {
     "ol": {
-      "scripts": "sharemap.ol.min.js",
-      "styles": "sharemap.ol.min.css"
+      "scripts": ["sharemap.ol.min.js"],
+      "styles": ["sharemap.ol.min.css"]
     }
   },
   "metadata": {
