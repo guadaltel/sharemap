@@ -59,6 +59,7 @@
     "author": "",
     "org": "",
     "tags": "mapea,plugin",
-    "icon": "./facade/assets/icons/icons.svg"
+    "icon": "./facade/assets/icons/icons.svg",
+    "centralized": true
   }
 }
